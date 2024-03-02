@@ -16,6 +16,9 @@ public class JogoDaVelha_Mapa {
   }
 
   public void desenha(int jogada) {
+    System.out.println("-------------");
+    System.out.println("  Jogada: " + jogada);
+    System.out.println("-------------");
     for (int i = 0; i < mapa.length; i++) {
       System.out.print(i + " ");
       for (int j = 0; j < mapa[i].length; j++) {

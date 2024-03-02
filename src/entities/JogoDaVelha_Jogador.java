@@ -14,9 +14,13 @@ public class JogoDaVelha_Jogador {
   public boolean joga(Scanner teclado) {
     int l, c;
     do {
-      System.out.println("Digite a linha e a coluna que deseja jogar (0 a 2): ");
+      System.out.println("----------------------------");
+      System.out.println("Jogador ..");
+      System.out.println("linha:");
       l = teclado.nextInt();
+      System.out.println("coluna:");
       c = teclado.nextInt();
+      System.out.println("----------------------------");
 
       if (l < 0 || l > 2 || c < 0 || c > 2) {
         System.out.println("Jogada inválida! Digite valores entre 0 e 2.");
